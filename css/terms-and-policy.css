@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+main{
+    width:1400px;
+    margin-left:260px;
+    border: solid black;
+}
+
+main p, ul{text-align: left;}
+
+main h2{margin-top:50px;}
+
+
+@media(max-width:1750px){main{margin-left:200px;}}
+
+@media(max-width:1650px){main{width:1100px;}}
+
+@media(max-width:1430px){
+    main h1{font-size:35px;}
+    main h2{font-size: 25px;}
+    main p, main a, main ul{font-size: 20px;}
+
+    main{width:900px;}
+}
+
+@media(max-width:1175px){main{width:700px;}}

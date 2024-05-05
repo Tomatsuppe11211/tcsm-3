@@ -1,0 +1,45 @@
+main{width:1400px; margin-left:260px;}
+
+.main-title{
+    -webkit-text-stroke: 2px #000;
+    color:#01EDBB;
+    position: absolute;
+    margin-top:-355px;
+    margin-left:400px;
+}
+
+.main-logo{
+    position: absolute;
+    margin-left:-1250px;
+    margin-top:200px;
+}
+
+.main-header{font-size: 36px;line-height: 50px;}
+
+main p{text-align: left;}
+
+.mammoth{margin-top:0px;}
+main img{margin-top:90px;}
+
+h2{margin-top:40px;}
+
+.activities-button{
+    height:50px;
+    width:200px;
+    background-color: #FFF;
+    font-size: 20px;
+}
+
+.activities-button:hover{background-color:#01EDBB;}
+
+
+.news{display: flex;flex-direction: row;}
+
+.news div{width:430px; height:520px;}
+
+.news img{margin-top:0px;}
+.news p{font-size: 18px;}
+
+.night,
+.energetica{margin-left:47px;}
+

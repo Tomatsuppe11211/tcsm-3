@@ -1,0 +1,203 @@
+body{
+    text-align: center; 
+    margin: 0;
+    padding:0;
+    font-family: monospace;
+}
+
+
+h1{font-size: 40px;}
+h2{font-size: 30px;}
+h3{font-size: 20px;}
+p, a, ul{font-size: 24px;}
+
+
+.phone-title{display: none;}
+
+
+header a,
+footer a{text-decoration: none; color:#000;}
+
+
+header, footer{background-color: #DFDFDF;}
+
+
+header{height:60px; text-align: left;}
+
+header,
+.search{align-content: center;}
+
+header,
+#burger:checked ~ nav,
+footer,
+footer a{display: flex;}
+
+
+
+header, footer{align-items: center; flex-direction: row;}
+
+
+
+#burger,
+.menu-icon,
+.phone-footer{display: none;}
+
+
+
+#burger:checked ~ nav,
+footer a{flex-direction: column;}
+
+
+nav{margin-left:30px;}
+
+
+nav a{padding:0 20px;}
+
+.active,
+nav a:hover,
+footer a:hover{color:#009231;}
+
+
+
+.search{
+    height:20px;
+    width:250px;
+    padding:5px;
+    border-radius: 30px;
+    margin-left:600px;
+    border: solid #000;
+}
+
+.search input{
+    outline: none; 
+    border: none;
+    background-color: transparent;
+    width:150px;
+}
+
+.search input,
+.search i{margin-left:15px;}
+
+.search input,
+footer div a{font-size: 18px;}
+
+footer{margin-top:100px; }
+
+footer div{border: Solid red; height:150px;}
+
+
+footer a,
+footer div h3{padding:0;}
+
+
+footer div{padding: 0px 120px;}
+footer div a{padding: 5px;}
+
+.links img{height:40px;width:40px;}
+
+.footer-logo{height:100px; width:100px;}
+
+
+
+
+
+
+
+
+
+/*Scaling the navigationbar and footer*/
+
+@media(max-width:1650px){
+    footer div{padding:0px 90px;}
+    .search{margin-left:400px;}
+}
+
+@media(max-width:1420px){
+    footer div{padding:0px 60px;}
+    .search{width:175px; margin-left:200px;}
+    .search input{width:110px;}
+}
+
+@media(max-width:1175px){
+    nav a{padding:0 15px;font-size: 18px;}
+    .search{height:15px; width:150px;}
+    .search i{margin-left:10px;}
+    .search input{
+        font-size: 16px;
+        margin-left:10px;
+        width:100px;
+    }
+
+    footer div{padding:0px 40px;}
+    footer div h3{font-size: 18px;}
+    footer div a{font-size: 16px;}
+
+    .footer-logo{height:75px;width:75px;}
+}
+
+
+@media(max-width:970px){
+    nav a{padding:0px 5px;}
+    footer div{padding:0px 20px;}
+}
+
+
+@media(max-width:800px){
+    footer div{padding:0 10px;}
+    .links img{height:30px;width:30px;}
+    .search{margin-left:75px;}
+}
+
+
+@media(max-width:700px){
+    nav a{font-size:16px; padding:0px 2px;}
+
+    .search{
+        height:14px;
+        padding:3px;
+        width:100px;
+        border-width: 1px;
+    }
+
+    .search i{font-size: 12px; margin-left:5px;}
+
+    .search input{
+        font-size:12px; 
+        margin-left:5px;
+        width:60px;
+    }
+
+    footer div a{font-size: 12px;}
+    footer div h3{font-size: 14px;}
+}
+
+
+@media(max-width:600px){
+    nav{display: none;}
+    .phone-title{display: block; margin-left:150px;}
+    .search{margin-left:350px;}
+
+    .search,
+    .phone-title{position: absolute;}
+
+    .menu-icon{display:block; margin-left:20px; font-size:20px;}
+
+    #burger:checked ~ nav{
+        flex-direction: column;
+        position: relative;
+    }
+
+    footer div a,
+    footer div h3,
+    .links img,
+    .links{display: none;}
+
+    .phone-footer{display: block;}
+
+    .footer-logo{height:30px; width:30px;}
+    footer div{
+        height:30px;
+        align-content: center;
+        padding:0px 35px;
+    }
+}
