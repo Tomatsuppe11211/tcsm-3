@@ -29,3 +29,27 @@ main h2{margin-top:50px;}
 }
 
 @media(max-width:1175px){main{width:700px;}}
+
+@media(max-width:920px){main{width:500px;}}
+
+@media(max-width:800px){
+    main h1{font-size:25px;}
+    main h2{font-size:20px;}
+    main p, main a, li{font-size:18px;}
+    main{width:400px;}
+}
+
+@media(max-width:675px){
+    main h1{font-size:20px;}
+    main h2{font-size:18px; margin-top:30px;}
+    main p, main a, li{font-size:15px;}
+    br{display: none;}
+    main{margin-left:150px;}
+}
+
+
+@media(max-width:600px){
+    main h1{font-size: 16px;}
+    main h2{font-size: 12px;}
+    main p, main a, li{font-size:10px;}
+}

@@ -64,7 +64,7 @@ footer a:hover{color:#009231;}
     width:250px;
     padding:5px;
     border-radius: 30px;
-    margin-left:600px;
+    margin-left:700px;
     border: solid #000;
 }
 
@@ -97,7 +97,20 @@ footer div a{padding: 5px;}
 
 .footer-logo{height:100px; width:100px;}
 
+#burger:checked ~ nav{
+    position: relative;
+    flex-direction: column;
+    width:150px;
+    height:175px;
+    background-color: #DFDFDF;
+    margin-top:230px;
+    margin-left:-40px;
+    text-align: center;
+}
 
+#burger:checked ~ nav a{
+    padding:8px;
+}
 
 
 
@@ -107,18 +120,18 @@ footer div a{padding: 5px;}
 
 /*Scaling the navigationbar and footer*/
 
-@media(max-width:1650px){
+@media(max-width:1775px){
     footer div{padding:0px 90px;}
     .search{margin-left:400px;}
 }
 
-@media(max-width:1420px){
+@media(max-width:1550px){
     footer div{padding:0px 60px;}
-    .search{width:175px; margin-left:200px;}
+    .search{width:175px; margin-left:300px;}
     .search input{width:110px;}
 }
 
-@media(max-width:1175px){
+@media(max-width:1300px){
     nav a{padding:0 15px;font-size: 18px;}
     .search{height:15px; width:150px;}
     .search i{margin-left:10px;}
@@ -136,20 +149,21 @@ footer div a{padding: 5px;}
 }
 
 
-@media(max-width:970px){
+@media(max-width:1075px){
     nav a{padding:0px 5px;}
+    .search{margin-left:200px;}
     footer div{padding:0px 20px;}
 }
 
 
-@media(max-width:800px){
+@media(max-width:900px){
     footer div{padding:0 10px;}
     .links img{height:30px;width:30px;}
     .search{margin-left:75px;}
 }
 
 
-@media(max-width:700px){
+@media(max-width:800px){
     nav a{font-size:16px; padding:0px 2px;}
 
     .search{
@@ -172,10 +186,15 @@ footer div a{padding: 5px;}
 }
 
 
+@media(max-width:675px){
+    footer div{padding:0px 2px;}
+    nav a{padding:0px;}
+}
+
 @media(max-width:600px){
     nav{display: none;}
-    .phone-title{display: block; margin-left:150px;}
-    .search{margin-left:350px;}
+    .phone-title{display: block; margin-left:200px;}
+    .search{margin-left:400px;}
 
     .search,
     .phone-title{position: absolute;}
@@ -200,4 +219,32 @@ footer div a{padding: 5px;}
         align-content: center;
         padding:0px 35px;
     }
+
+    footer{margin-top:50px;}
+}
+
+@media(max-width:520px){
+    footer div{padding:0px 25px;}
+    .phone-title{margin-left:150px;}
+    .search{margin-left:320px;}
+}
+
+@media(max-width:460px){
+    footer div{padding:0px 15px;}
+    .phone-title{margin-left:100px;}
+    .search{margin-left:260px;}
+}
+
+@media(max-width:400px){
+    footer div{padding:0px 5px;}
+    .phone-title{font-size: 14px;}
+    .search{margin-left:200px;}
+    nav a{font-size: 14px;}
+}
+
+@media(max-width:340px){
+    .phone-footer{font-size:10px;}
+    .phone-title{font-size:12px; margin-left:75px;}
+    nav a{font-size: 12px;}
+    .search{margin-left:175px;}
 }
