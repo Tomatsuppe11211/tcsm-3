@@ -8,7 +8,7 @@ body{
 main{
     width:1400px;
     margin-left:260px;
-    border: solid black;
+    margin-top:100px;
 }
 
 main p, ul{text-align: left;}
@@ -52,4 +52,16 @@ main h2{margin-top:50px;}
     main h1{font-size: 16px;}
     main h2{font-size: 12px;}
     main p, main a, li{font-size:10px;}
+    main{
+        margin-left: 100px;
+        margin-top:50px;
+    }
 }
+
+@media(max-width:520px){main{margin-left:50px;}}
+
+@media(max-width:460px){main{width:300px; margin-top:20px;}}
+
+@media(max-width:400px){main{width:200px;margin-left:100px;}}
+
+@media(max-width:340px){main{margin-left:70px;}}
