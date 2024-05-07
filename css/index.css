@@ -42,9 +42,18 @@ h2{margin-top:40px;}
 .news p{font-size: 18px;}
 
 .night,
-.energetica{margin-left:47px;}
+.energetica{margin-left:54px;}
 
 main{border:solid black;}
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width:1775px){
@@ -60,11 +69,41 @@ main{border:solid black;}
 
     .main-title{margin-top:-300px;margin-left:300px;}
 
-    .news img{height:250px; width:325px;}
-    .news div{ width:325px;; border: solid red;}
+    .news img{height:250px;}
+
+    .news div,
+    .news img{ width:325px;}
     
     .night,
     .energetica{margin-left:54px;}
 
     .news p{font-size:16px;}
+}
+
+
+@media(max-width:1550px){
+    main,
+    main img{width:900px;}
+
+    main img{height:350px;}
+
+    .main-logo{margin-top:100px; margin-left:-800px;}
+
+    .main-title{
+        font-size:35px;
+        margin-top:-220px;
+        margin-left:250px;
+    }
+
+    .main-header{font-size:30px;}
+
+    main p,
+    main ul,
+    main a{font-size:20px;}
+
+    .news div,
+    .news img{width:250px; border: solid red;}
+
+    .news h3{font-size:16px;}
+    .news p{font-size: 14px;}
 }
