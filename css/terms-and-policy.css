@@ -1,67 +1,46 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+
+.content{
+    width:1200px; border: solid black;
+    text-align: left;
 }
 
-main{
-    width:1400px;
-    margin-left:260px;
-    margin-top:100px;
+.content h1{text-align: center;}
+
+main h2{margin-top:75px;}
+
+
+@media(max-width:1550px){.content{width:700px;}}
+
+
+
+@media(max-width:1075px){
+    .content{width:500px;}
+    .content h1{font-size:25px;}
+    .content h2{font-size:22px; margin-top:40px;}
+
+    .content p,
+    .content ul,
+    .content a{font-size:18px;}
 }
 
-main p, ul{text-align: left;}
 
-main h2{margin-top:50px;}
-
-
-@media(max-width:1750px){main{margin-left:200px;}}
-
-@media(max-width:1650px){main{width:1100px;}}
-
-@media(max-width:1430px){
-    main h1{font-size:35px;}
-    main h2{font-size: 25px;}
-    main p, main a, main ul{font-size: 20px;}
-
-    main{width:900px;}
-}
-
-@media(max-width:1175px){main{width:700px;}}
-
-@media(max-width:920px){main{width:500px;}}
 
 @media(max-width:800px){
-    main h1{font-size:25px;}
-    main h2{font-size:20px;}
-    main p, main a, li{font-size:18px;}
-    main{width:400px;}
+    .content{width:300px;}
+    .content h1{font-size:20px;}
+    .content h2{font-size:16px; margin-top:30px;}
+
+    .content p,
+    .content ul,
+    .content a{font-size:14px;}
 }
 
-@media(max-width:675px){
-    main h1{font-size:20px;}
-    main h2{font-size:18px; margin-top:30px;}
-    main p, main a, li{font-size:15px;}
-    br{display: none;}
-    main{margin-left:150px;}
+@media(max-width:420px){
+    .content{width:250px;}
+    .content h1{font-size:18px;}
+    .content h2{font-size:14px; margin-top:10px;}
+
+    .content p,
+    .content ul,
+    .content a{font-size:10px;}
 }
-
-
-@media(max-width:600px){
-    main h1{font-size: 16px;}
-    main h2{font-size: 12px;}
-    main p, main a, li{font-size:10px;}
-    main{
-        margin-left: 100px;
-        margin-top:50px;
-    }
-}
-
-@media(max-width:520px){main{margin-left:50px;}}
-
-@media(max-width:460px){main{width:300px; margin-top:20px;}}
-
-@media(max-width:400px){main{width:200px;margin-left:100px;}}
-
-@media(max-width:340px){main{margin-left:70px;}}

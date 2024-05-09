@@ -1,156 +1,142 @@
 
+
 .logo{
-    position: absolute;
-    margin-left:-800px;
-    margin-top:225px;
+    position: absolute; 
+    margin-top:-2950px;
+    height:150px;
+    width:150px;
 }
 
 
-main img{margin-top:50px;margin-bottom: 50px;}
+main div{width:1200px;}
+
+main p,
+.news p{text-align: left;}
 
 
-main div{
-    border: solid black;
-    width:1400px;
-    margin-left:250px;
-    text-align: left;
+main img,
+main div{margin-top:50px;}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-h1, h2, h3,
-.activities-button{text-align: center;}
-
-
-.news div{margin-left:450px; border: solid red;}
 
 .news div,
-.news img{width:500px;}
+.news img{width:430px;}
 
 
-.news img{
-    height:250px;
-    margin-top:0px;
-    margin-bottom: 0px;
-}
 
+.news p{font-size: 16px;}
 
-.news h3{font-size:22px;}
-
-
-.activities-button,
-.news p{font-size:18px;}
-
+.news img,
+.astronaut,
+.intro-image{margin-top:0px;}
 
 .activities-button{
-    height:30px;
-    width:150px;
-    background-color: #FFF;
-    margin-left:625px;
+    height:50px;
+    width:200px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    margin-top:10px;
+    align-content: center;
+    text-align: center;
 }
-
 
 .activities-button:hover{background-color: #01EDBB;}
 
 
 
-
-
-
-/*Scaling the page*/
-@media(max-width:1775px){
-    main img,
-    main div{width:1100px;}
-
-    .logo{
-        height:150px;
-        width: 150px;
-        margin-left:-640px;
-    }
-
-    main div{margin-left:335px;}
-
-    .activities-button{margin-left:485px;}
-
-    .news div{margin-left:295px;}
-}
-
-
-
-
 @media(max-width:1550px){
-    main img,
-    main div{width:800px;}
+    main div,
+    main img{width:700px;}
 
     .logo{
-        height:125px;
-        width:125px;
-        margin-left:-475px;
-        margin-top: 175px;
+        height:100px; 
+        width:100px;
+        margin-top:-2580px;
     }
 
-    main div{margin-left:375px;}
+    main h1{font-size:25px;}
+    main div h2{font-size:22px;}
+    main div p{font-size: 18px;}
 
-    .activities-button{margin-left:325px;}
+    .news h3,
+    .activities-button{font-size:16px;}
 
-    .news div{margin-left:150px;}
+    .news p{font-size: 14px;}
 
-    main h1{font-size:30px;}
-    main h2{font-size: 25px;}
-    .news h3{font-size: 18px;}
-
-    main p,
-    .news p,
-    .activities-button{font-size: 16px;}
+    .activities-button{height:40px; width:160px;}
 }
 
 
 
-
-
-
-@media(max-width:1300px){main div{margin-left:250px;}}
-
-
-
-
-
-@media(max-width:1075px){
-    main div{margin-left:135px;}
-    main h1{font-size: 25px;}
-    main h2{font-size:20px;}
-
+@media(max-width:920px){
     main div,
-    main img{width:500px;}
+    main img{width:400px;}
 
-    main div{margin-left:280px;}
+    main img{height:150px;}
 
     .logo{
-        height:75px; 
+        height: 75px; 
         width:75px;
-        margin-top:140px;
-        margin-left:-300px;
+        margin-top:-1970px;
     }
 
-    .activities-button{
-        font-size: 14px;
-        width:100px;
-        margin-left:200px;
-    }
+    main img,
+    main div{margin-top:20px;}
 
-    .intro-image{height:250px;}
-    main img{height:200px;}
+    main h1{font-size: 22px; line-height: 25px;}
+    main div h2{font-size: 18px;line-height: 20px;}
+    main div p{font-size: 15px;}
 
     .news div,
-    .news img{width:300px;}
+    .news img{width:200px;}
 
-    .news img{height:150px;}
+    .news img{height:100px;}
 
-    .news div{margin-left: 100px;}
+    .news h3{font-size: 14px;}
+
+    .news p,
+    .activities-button{font-size: 12px;}
+    
+    .activities-button{
+        letter-spacing: 2px;
+        height:20px;
+        width:130px;
+    }
 }
 
 
 
-@media(max-width:920px){main div{margin-left:205px;}}
+@media(max-width:600px){
+    main div,
+    main img{width:250px;}
 
+    .logo{
+        height:60px;
+        width:60px;
+        margin-top:-1470px;
+    }
 
+    main h1{font-size: 16px;}
+    main div h2{font-size: 14px;}
+    main div p{font-size: 12px;}
 
-@media(max-width:800px){}
+    .intro-image{height:150px;}
+    main img{height:100px;}
+
+    .news h3{font-size: 10px;}
+    
+    .news p,
+    .activities-button{font-size: 8px;}
+
+    .activities-button{
+        letter-spacing: 1px;
+        height:15px;
+        width:90px;
+    }
+}

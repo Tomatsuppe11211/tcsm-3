@@ -1,4 +1,80 @@
-main{
-    border: solid red;
-    width:300px;
+
+.logo{height:150px; width:150px;}
+
+.logo,
+main h1,
+main img{margin-top:50px;}
+
+main h1{font-size: 40px; line-height: 60px;}
+
+main div h2{font-size: 30px;line-height: 40px;}
+
+main div h2,
+main p{margin-top:0px;}
+
+
+main div{
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+main p{text-align: left;}
+
+.teacher{height:400px; width:400px;}
+
+
+
+
+
+
+@media(max-width:1550px){
+    
+    main h1{font-size:30px; margin-top:30px;}
+    main h2{font-size: 25px;}
+    main p{font-size:18px;}
+
+    main div,
+    main img{width:700px;}
+
+    .teacher{height:300px; width:300px;}
+}
+
+@media(max-width:1075px){
+    .logo{
+        height:125px; 
+        width:125px;
+        margin-top:30px;
+    }
+    
+    main h1{font-size: 25px;}
+    main div h2{font-size: 20px;}
+    main p{font-size: 16px;}
+
+    main div,
+    main img{width:500px;}
+}
+
+
+@media(max-width:600px){
+    .logo{height:100px; width:100px;}
+
+    main h1{font-size:22px; margin-top:10px;}
+    main div h2{font-size:16px; line-height:20px;}
+    main p{font-size:12px; margin-top:0px;}
+
+    .researcher{margin-top:0px;}
+
+    main div,
+    main img{width:275px;}
+
+    main img{height:150px;}
+
+    .teacher{height:150px; width: 150px;}
+}
+
+
+@media(max-width:460px){
+    .logo{height:75px; width:75px;}
+    main h1{font-size:20px;}
 }
