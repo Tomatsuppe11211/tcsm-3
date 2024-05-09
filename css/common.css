@@ -145,7 +145,11 @@ footer div a{padding: 5px;}
     footer div h3{font-size: 18px;}
     footer div a{font-size: 16px;}
 
-    .footer-logo{height:75px;width:75px;}
+    .footer-logo{
+        height:75px;
+        width:75px;
+        margin-left:20px;
+    }
 }
 
 
@@ -156,7 +160,7 @@ footer div a{padding: 5px;}
 }
 
 
-@media(max-width:900px){
+@media(max-width:920px){
     footer div{padding:0 10px;}
     .links img{height:30px;width:30px;}
     .search{margin-left:75px;}
