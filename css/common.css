@@ -228,10 +228,12 @@ footer div a{padding: 5px;}
     .phone-footer{display: block;}
 
     .footer-logo{height:30px; width:30px;}
+
     footer div{
-        height:30px;
+        height:60px;
         align-content: center;
         padding:0px 35px;
+        color:green;
     }
 
     footer{margin-top:50px;}
