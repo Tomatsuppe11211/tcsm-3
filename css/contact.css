@@ -1,69 +1,121 @@
+
+
+.message,
+.message div{display: flex; align-items: center;}
+
+
+.message,
+.message div,
+textarea{border: solid #000;}
+
+
+.message,
+.message div,
+.message button{border-radius: 30px;}
+
+
 .message{
-    border: solid black;
     width:800px;
     height:500px;
-    border-radius: 30px;
     margin-top:97px;
     background-color: #01EDBB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;  
 }
+
 
 .message h2{margin-top:10px;}
 
-.name,
-.email{
-    height:40px;
-    width:400px;
-    border: solid black;
-    border-radius: 30px;
-    margin-top:30px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-}
 
-.name i,
-.email i{
-    font-size: 25px;
-    margin-left:20px;
-}
-
-textarea{
-    width:400px;
-    height:100px;
-    border: solid #000;
-    margin-top:50px;
-}
-
-.name input,
-.email input,
-textarea{
-    font-size:20px; 
-    background-color: transparent;
-    
-}
+.message div{height:40px; flex-direction: row;}
 
 
-.name input,
-.email input{
-    outline: none; 
-    border: none;
-    margin-left: 20px;
-}
+.message div,
+textarea{width:400px;}
+
+
+.message div,
+.message button{margin-top:30px;}
+
+
+.message div i{font-size: 25px;}
+
+
+.message div i,
+.message div input{margin-left: 20px;}
+
+
+textarea{height:100px; margin-top:50px;}
+
+
+.message div input,
+textarea{background-color: transparent;}
+
+
+.message div input,
+textarea,
+.message button{font-size:20px; }
+
+
+.message div input{outline: none; border: none;}
 
 .message button{
     height:30px;
-    font-size: 20px;
     background-color: #000;
     color:#FFF;
     width:200px;
-    border-radius: 30px;
-    margin-top:30px;
 }
 
 .message button:hover{
     color:#000;
     background-color: #FFF;
+}
+
+
+
+
+
+
+@media(max-width:1075px){
+    .message{width:500px;}
+
+    .message h2{font-size:25px;}
+
+    .message div input,
+    textarea,
+    .message button{font-size: 16px;}
+
+    .message button{width:140px;}
+}
+
+
+@media(max-width:600px){
+    .message div,
+    textarea{width:200px;}
+
+    .message div{height:20px;}
+
+    .message h2{font-size:20px; line-height: 25px;}
+    .message div i{font-size: 15px; margin-left:10px;}
+
+    .message div input{
+        font-size: 12px; 
+        width:120px;
+        margin-left: 10px;
+    }
+
+    .message div{margin-top:10px;}
+
+    .message button{
+        font-size:12px;
+        width:100px;
+    }
+
+    textarea,
+    .message button{margin-top:20px;}
+
+    .message{
+        width:250px; 
+        height:350px;
+        margin-top:50px;
+    }
 }

@@ -1,0 +1,94 @@
+
+
+main div,
+main img{width:1200px;}
+
+.teacher{width:400px;}
+
+main img,
+.teacher{height:400px;}
+
+main,
+main img{margin-top:50px;}
+
+
+main div p{text-align: left;}
+
+main button{
+    height:30px;
+    width:150px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color:transparent;
+    margin-top:30px;
+}
+
+main button:hover{
+    background-color: #01EDBB;
+}
+
+
+@media(max-width:1550px){
+    main div,
+    main img{width:700px;}
+
+    main img{height:250px;}
+
+    .teacher{height:300px; width:300px;}
+
+    main div h1{font-size:30px;}
+    main div h2{font-size: 25px;}
+    main div p{font-size: 18px;}
+
+    main button{
+        font-size: 14px;
+        height:25px;
+        width:140px;
+        letter-spacing: 2px;
+        margin-top:20px;
+    }
+}
+
+
+
+@media(max-width:1075px){
+    main div,
+    main img{width:500px;}
+
+    main img{height:200px;}
+
+    .teacher{height:250px; width:250px;}
+
+    main{margin-top:30px;}
+}
+
+
+@media(max-width:600px){
+    main div,
+    main img{width:250px;}
+
+    main img{height:150px;}
+
+    main{margin-top:10px;}
+
+    main div h1{font-size:20px;}
+    main div h2{font-size:16px;}
+    main div p{font-size:12px;}
+
+    .teacher{height:150px; width:150px;}
+
+    main button{
+        font-size: 10px;
+        letter-spacing: 1px;
+        width:100px;
+        height:18px;
+        margin-top:10px;
+    }
+
+    .phone-title{margin-left:100px;}
+}
+
+
+@media(max-width:460px){.phone-title{font-size: 15px;}}
+
+@media(max-width:400px){.phone-title{margin-left:70px; font-size: 12px;}}
