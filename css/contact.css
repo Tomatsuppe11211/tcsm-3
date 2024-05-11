@@ -116,3 +116,5 @@ textarea,
         margin-top:50px;
     }
 }
+
+@media(max-width:520px){.phone-title{font-size:15px;}}

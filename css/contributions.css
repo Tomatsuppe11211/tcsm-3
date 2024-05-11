@@ -66,6 +66,7 @@ main div{display: flex; flex-direction: column;}
     .teacher{height:150px; width: 150px;}
 }
 
+@media(max-width:520px){.phone-title{font-size:15px;}}
 
 @media(max-width:460px){
     .logo{height:75px; width:75px;}
