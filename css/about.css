@@ -13,10 +13,12 @@ main div,
 
 
 
-@media(max-width:1550px){main div{width:700px;}}
+@media(max-width:1550px){
+    .location, .facilities{width:700px;}
+}
 
 @media(max-width:1075px){
-    main div{width:500px;}
+    .location, .facilities{width:500px;}
 
     main h1{font-size:25px;}
     main div h2{font-size: 22px;}
@@ -26,7 +28,7 @@ main div,
 }
 
 @media(max-width:800px){
-    main div{width:400px;}
+    .location, .facilities{width:400px;}
 
     main h1{font-size:22px;}
     main div h2{font-size: 18px;}
@@ -41,8 +43,11 @@ main div,
     .location{margin-top:5px;}
 }
 
+
+
 @media(max-width:600px){
-    main div,
+    .location, 
+    .facilities,
     .opening{width:250px;}
 
     main h1{font-size:22px;}

@@ -89,7 +89,7 @@ textarea,
     .message div,
     textarea{width:200px;}
 
-    .message div{height:20px;}
+    .message div{height:20px; margin-top:20px;}
 
     .message h2{font-size:20px; line-height: 25px;}
     .message div i{font-size: 15px; margin-left:10px;}
@@ -100,20 +100,18 @@ textarea,
         margin-left: 10px;
     }
 
-    .message div{margin-top:10px;}
-
     .message button{
         font-size:12px;
         width:100px;
     }
 
     textarea,
-    .message button{margin-top:20px;}
+    .message button{margin-top:30px;}
 
     .message{
         width:250px; 
         height:350px;
-        margin-top:50px;
+        margin-top:70px;
     }
 }
 

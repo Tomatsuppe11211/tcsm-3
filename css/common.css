@@ -42,7 +42,9 @@ header, footer{background-color: #DFDFDF;}
 header{height:60px; text-align: left;}
 
 header,
-.search{align-content: center;}
+.search,
+footer,
+footer div{align-content: center;}
 
 header,
 #burger:checked ~ nav,
@@ -71,6 +73,7 @@ nav{margin-left:30px;}
 nav a{padding:0 20px;}
 
 .active,
+.phone-title,
 nav a:hover,
 footer a:hover{color:#009231;}
 
@@ -98,9 +101,7 @@ footer a:hover{color:#009231;}
 .search input,
 footer div a{font-size: 18px;}
 
-footer{margin-top:100px; }
-
-footer div{height:150px;}
+footer{margin-top:100px; height:150px;}
 
 
 footer a,
@@ -165,6 +166,8 @@ footer div a{padding: 5px;}
         width:75px;
         margin-left:20px;
     }
+
+    footer{height:120px;}
 }
 
 
@@ -203,6 +206,8 @@ footer div a{padding: 5px;}
 
     footer div a{font-size: 12px;}
     footer div h3{font-size: 14px;}
+
+    footer{height:100px;}
 }
 
 
@@ -242,7 +247,7 @@ footer div a{padding: 5px;}
         color:green;
     }
 
-    footer{margin-top:50px;}
+    footer{margin-top:50px; height:60px;}
 }
 
 @media(max-width:520px){
