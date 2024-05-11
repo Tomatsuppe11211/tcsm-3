@@ -65,10 +65,7 @@ textarea,
     width:200px;
 }
 
-.message button:hover{
-    color:#000;
-    background-color: #FFF;
-}
+.message button:hover{color:#000; background-color: #FFF;}
 
 
 

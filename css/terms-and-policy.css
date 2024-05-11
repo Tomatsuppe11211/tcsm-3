@@ -1,11 +1,7 @@
 
-.content{
-    width:1200px; border: solid black;
-    text-align: left;
-}
 
 .content h1{text-align: center;}
-
+.content{text-align: left;}
 main h2{margin-top:75px;}
 
 

@@ -1,11 +1,7 @@
 
-main div{width:1200px;}
 
-.opening,
-main div p{text-align: left;}
-
-.opening{width:300px; }
-.opening h2{text-align: center; text-decoration: underline;}
+.opening{width:300px;}
+.opening h2{text-decoration: underline;}
 
 .logo,
 main div,

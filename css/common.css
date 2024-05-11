@@ -14,13 +14,20 @@ main{
 }
 
 
+main div,
+main img{width:1200px;margin-top:50px;}
 
+main div p,
+main div ul{text-align: left;}
+
+.logo{height:150px; width:150px;}
 
 h1{font-size: 40px; line-height: 60px;}
 h2{font-size: 30px; line-height: 40px;}
 h3{font-size: 18px;}
 p, a, ul{font-size: 20px;}
 
+.intro-image{margin-top:0px;}
 
 .phone-title{display: none;}
 
