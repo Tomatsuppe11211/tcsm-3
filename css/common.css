@@ -103,7 +103,7 @@ footer div h3{padding:0;}
 footer div{padding: 0px 120px;}
 footer div a{padding: 5px;}
 
-.links img{height:40px;width:40px;}
+.links i{font-size:30px;padding:0px 5px;}
 
 .footer-logo{height:100px; width:100px;}
 
@@ -118,9 +118,7 @@ footer div a{padding: 5px;}
     text-align: center;
 }
 
-#burger:checked ~ nav a{
-    padding:8px;
-}
+#burger:checked ~ nav a{padding:8px;}
 
 
 
