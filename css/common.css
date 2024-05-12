@@ -13,6 +13,11 @@ main{
     justify-content: center;
 }
 
+#intro-image{
+    background-image: url("../images/used-images/mammoth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 main div,
 main img{width:1200px;margin-top:50px;}

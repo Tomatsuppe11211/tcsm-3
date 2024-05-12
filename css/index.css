@@ -1,11 +1,7 @@
 
 
 #intro-image{
-    background-image: url("../images/used-images/mammoth.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     height:500px;
-
     align-content: center;
     margin-top:0px;
 }
@@ -80,8 +76,8 @@ main div{margin-top:50px;}
 
     main img{height:150px;}
     
-    #intro-image{height:200px;}
-    #intro-image img{height: 75px; width:75px;}
+    #intro-image{height:150px;}
+    #intro-image img{height: 60px; width:60px;}
 
     main img,
     main div{margin-top:20px;}
@@ -114,7 +110,7 @@ main div{margin-top:50px;}
     main img{width:250px;}
 
     #intro-image{height:100px;}
-    #intro-image img{height:50px;width:50px;}
+    #intro-image img{height:35px;width:35px;}
 
     main h1{font-size: 16px;}
     main div h2{font-size: 14px;}
