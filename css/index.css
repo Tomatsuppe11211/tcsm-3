@@ -1,5 +1,17 @@
 
 
+#intro-image{
+    background-image: url("../images/used-images/mammoth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+
+    align-content: center;
+    margin-top:0px;
+}
+
+#intro-image img{height:150px; width:150px;}
+
 .logo{position: absolute; margin-top:-2950px;}
 
 .news p{text-align: left;}
@@ -44,11 +56,9 @@ main div{margin-top:50px;}
     main div,
     main img{width:700px;}
 
-    .logo{
-        height:100px; 
-        width:100px;
-        margin-top:-2580px;
-    }
+    #intro-image{height:300px;}
+
+    #intro-image img{height:100px; width:100px;}
 
     main h1{font-size:25px;}
     main div h2{font-size:22px;}
@@ -69,12 +79,9 @@ main div{margin-top:50px;}
     main img{width:400px;}
 
     main img{height:150px;}
-
-    .logo{
-        height: 75px; 
-        width:75px;
-        margin-top:-1970px;
-    }
+    
+    #intro-image{height:200px;}
+    #intro-image img{height: 75px; width:75px;}
 
     main img,
     main div{margin-top:20px;}
@@ -106,11 +113,8 @@ main div{margin-top:50px;}
     main div,
     main img{width:250px;}
 
-    .logo{
-        height:60px;
-        width:60px;
-        margin-top:-1470px;
-    }
+    #intro-image{height:100px;}
+    #intro-image img{height:50px;width:50px;}
 
     main h1{font-size: 16px;}
     main div h2{font-size: 14px;}
