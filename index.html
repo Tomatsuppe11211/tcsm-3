@@ -3,27 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripton" content="Welcome to the official website for the community science museum!">
-
+    <meta name="description" content="Welcome to the official website for the community science museum!">
     <title>TCSM Home</title>
-
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon/favicon-32x32.png">
-
     <script src="https://kit.fontawesome.com/8908c40066.js" crossorigin="anonymous"></script>
-    
 </head>
 
 
-
-
-
 <body>
-    
     <header>
         <input type="checkbox" id="burger">
-        <label for="burger" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        <label for="burger"><i class="fa-solid fa-bars"></i></label>
 
         <nav>
             <a href="index.html" class="active">Home</a>
@@ -35,29 +26,20 @@
 
         <h3 class="phone-title">TCSM Home</h3>
 
-        <div class="search">
+        <div class="searchbar">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" class="search-input" placeholder="Search...">
+            <input type="search" placeholder="Search...">
         </div>
-
-        
     </header>
 
 
-
-
-       
-
     <main>
+        <section class="tcsm-logo-display">
+            <img src="images/used-images/tcsm-logo.png" alt="The community science museum logo" class="main-logo">
+        </section>
         
-        <div id="intro-image">
-            <img src="images/used-images/tcsm-logo.png">
-        </div>
-        
-
-
-        <div class="intro-message">
-            <h1 class="main-header">The Community Science Museum</h1>  
+        <section>
+            <h1>The Community Science Museum</h1>  
             
             <p>
                 Come join us at the Community Science Museum where we’re committed 
@@ -76,16 +58,11 @@
                 the wonders of our discoveries and perhaps even ignite a lifelong passion 
                 to continue the exploration of the world around us.
             </p>  
-        </div>
+        </section>
         
-        
-
         <img src="images/used-images/museum.png" alt="museum">
 
-
-
-
-        <div class="activities">
+        <section>
             <h2>Activities and studies</h2>
 
             <p>
@@ -94,20 +71,15 @@
                 Take a look at our offers here!
             </p>
 
-            <button class="activities-button" onclick="document.location='activities.html'">See activities</button>
-        </div>
-
-        
-
-
+            <button onclick="document.location='activities.html'">See activities</button>
+        </section>
 
         <img src="images/used-images/library.png" alt="library">
 
+        <section class="news-display">
+            <h2>News</h2>
 
-        <div class="news">
-            <h2 class="news-header">News</h2>
-
-            <div class="astronaut">
+            <div class="news">
                 <img src="images/used-images/astronaut.png" alt="astronaut">
                 <h3>Visiting professor of aestronautics</h3>
                 <p>
@@ -118,7 +90,7 @@
                 </p>
             </div>
 
-            <div class="night">
+            <div class="news">
                 <img src="images/used-images/night-museum.png" alt="night-museum">
                 <h3>Night in the museum</h3>
                 <p>
@@ -129,7 +101,7 @@
                 </p>
             </div>
 
-            <div class="energetica">
+            <div class="news">
                 <img src="images/used-images/energetica.png" alt="energetica">
                 <h3>Energetica exhibition on loan</h3>
                 <p>
@@ -141,48 +113,42 @@
                      wind to create power.
                 </p>
             </div>
-        </div>
+        </section>
     </main>
 
 
-
     <footer>
-        <div class="about">
+        <section>
             <h3>About us</h3>
             <a href="about.html" class="phone-footer">About us</a>
             <a href="exhibitions.html">Exhibitions</a>
             <a href="contact.html">Reach out</a>
-        </div>
+        </section>
 
-        <div class="law">
+        <section>
             <h3>Terms and policy</h3>
-            <a href="policy.html" class="phone-footer">Policy</a>
+            <a href="policy.html" class="phone-footer">Privacy Policy</a>
             <a href="policy.html">Privacy Policy</a>
             <a href="terms.html">Terms and Conditions</a>
-        </div>
+        </section>
 
-        <div class="terms">
+        <section>
             <h3>Participate</h3>
             <a href="terms.html" class="phone-footer">Terms and Conditions</a>
             <a href="contributions.html">Contributions</a>
             <a href="activities.html">Activities and Studies</a>
-        </div>
+        </section>
 
-        <div class="links">
+        <section class="links">
             <h3>Social media</h3>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i> 
+            </div>
+        </section>
 
         <img src="images/used-images/tcsm-logo.png" alt="logo" class="footer-logo">
     </footer>
-
-
-
 </body>
-
-
-
-
 </html>
