@@ -5,43 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="See the exhibitions at the community science museum">
     <title>TCSM Exhibitions</title>
-
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/exhibitions.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon/favicon-32x32.png">
-
     <script src="https://kit.fontawesome.com/8908c40066.js" crossorigin="anonymous"></script>
 </head>
-
-
 
 
 <body>
     <header>
         <input type="checkbox" id="burger">
-        <label for="burger" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        <label for="burger"><i class="fa-solid fa-bars"></i></label>
 
         <nav>
             <a href="index.html">Home</a>
             <a href="exhibitions.html" class="active">Exhibitions</a>
             <a href="contributions.html">Contributions</a>
             <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>  
+            <a href="contact.html">Contact</a>
         </nav>
 
-        <h3 class="phone-title">TCSM Exhibitions</h3>
+        <h3 class="phone-title">TCSM Exhibition</h3>
 
-        <div class="search">
+        <div class="searchbar">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" class="search-input" placeholder="Search...">
+            <input type="search" placeholder="Search...">
         </div>
     </header>
 
 
     <main>
-        <img src="images/used-images/exhibition.png" alt="exhibition" class="intro-image">
+        <img src="images/used-images/exhibition.png" alt="exhibition" class="first-img">
 
-        <div class="intro">
+        <section>
             <h1>Exhibitions</h1>
 
             <p>
@@ -53,11 +48,11 @@
             </p>
 
             <h2>Popular guided tours</h2>
-        </div>
+        </section>
 
         <img src="images/used-images/evolution.png" alt="evolution">
 
-        <div class="evolution">
+        <section>
             <h2>Evolution</h2>
 
             <p>
@@ -72,12 +67,12 @@
                 evolved our time. You can also take some time to meet a few of the creatures who 
                 didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
             </p>
-        </div>
+        </section>
 
 
         <img src="images/used-images/biology.png" alt="Human torso model">
 
-        <div class="biology">
+        <section>
             <h2>Biology and Medicine</h2>
 
             <p>
@@ -96,12 +91,12 @@
                 Many of our great medicinal discoveries have come not only from the lab, but also from 
                 observing animals in the wild. Often our fellow creatures have beat us to it.
             </p>
-        </div>
+        </section>
 
 
         <img src="images/used-images/cosmology.png" alt="moon">
 
-        <div class="cosmology">
+        <section>
             <h2>Cosmology</h2>
 
             <p>
@@ -115,12 +110,12 @@
                 Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, 
                 to the latest exploration of the planets in our solar system.
             </p>
-        </div>
+        </section>
 
 
         <img src="images/used-images/robotics.png" alt="VR">
 
-        <div class="robotics">
+        <section>
             <h2>Robotics and AI</h2>
 
             <p>
@@ -128,12 +123,12 @@
                 the future. From useful home applications of AI to industrial uses of robotics, the future is 
                 here. You can even say hello and shake the hand of Rob the Robot.
             </p>
-        </div>
+        </section>
 
 
         <img src="images/used-images/ecology.png" alt="ants">
 
-        <div class="ecology">
+        <section>
             <h2>Ecology</h2>
             
             <p>
@@ -146,39 +141,42 @@
                 extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a 
                 brighter future.
             </p>
-        </div>
+        </section>
     </main>
 
 
     <footer>
-        <div class="about">
+        <section>
             <h3>About us</h3>
             <a href="about.html" class="phone-footer">About us</a>
             <a href="exhibitions.html">Exhibitions</a>
             <a href="contact.html">Reach out</a>
-        </div>
+        </section>
 
-        <div class="law">
+        <section>
             <h3>Terms and policy</h3>
-            <a href="policy.html" class="phone-footer">Policy</a>
+            <a href="policy.html" class="phone-footer">Privacy Policy</a>
             <a href="policy.html">Privacy Policy</a>
             <a href="terms.html">Terms and Conditions</a>
-        </div>
+        </section>
 
-        <div class="terms">
+        <section>
             <h3>Participate</h3>
             <a href="terms.html" class="phone-footer">Terms and Conditions</a>
             <a href="contributions.html">Contributions</a>
             <a href="activities.html">Activities and Studies</a>
-        </div>
+        </section>
 
-        <div class="links">
+        <section class="links">
             <h3>Social media</h3>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i> 
+            </div>
+        </section>
 
         <img src="images/used-images/tcsm-logo.png" alt="logo" class="footer-logo">
     </footer>
 </body>
+</html>

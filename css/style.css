@@ -1,0 +1,426 @@
+body, header, header nav, main, footer, section, .searchbar, .tcsm-logo-display, .news, footer div, #burger:checked ~ nav, 
+.content, form, form div{display: flex;}
+
+body, main, section, .news-display, .news, #burger:checked ~ nav, .content, form{flex-direction: column;}
+
+body, header, main, .searchbar, .tcsm-logo-display, section, .news-display, .news, form, form div{align-items: center;}
+
+header, header nav, footer, .searchbar, footer div, form div{flex-direction: row;}
+
+header, .tcsm-logo-display, main img, main p, h1, h2, h3, footer, p, footer a, footer div{width: 100%;}
+
+header nav, #burger:checked ~ nav{justify-content: start;}
+
+header, footer, #burger:checked ~ nav{background-color: #DFDFDF;}
+
+header label, #burger, header h3, .phone-footer{display: none;}
+
+a:hover, i:hover, .active, .phone-title{color: #009231;}
+
+h2, header a, form i{font-size: 25px;}
+
+p, a, label, button, input, .searchbar i, li, textarea{font-size: 20px;}
+
+.searchbar, .tcsm-logo-display, .news, .contact-form{justify-content: center;}
+
+.searchbar, #burger:checked ~ nav{position: absolute;}
+
+.main-logo, .tcsm-logo-display, .news, .news img, footer h3, .first-img{margin-top: 0;}
+
+main img, footer section, .footer-logo, .news, #top-logo{margin-top: 50px;}
+
+section, footer, .content h2{margin-top: 100px;}
+
+h1, h2, h3{text-align: center;}
+
+.footer-logo, #burger:checked ~ nav{width: 150px;}
+
+.news-display, footer, footer div{justify-content: space-evenly;}
+
+.news, footer section{height: fit-content;}
+
+.news h3, .news p, footer div{margin-top: 10px;}
+
+footer h3, .content h2{text-align: left;}
+
+.searchbar, form, form div, form textarea{border: 0.5px solid #000;}
+
+.searchbar, form div{border-radius: 20px;}
+
+footer a, form div, form textarea{margin-top: 20px;}
+
+button, form div, form textarea, .searchbar{background-color: #fff;}
+
+.searchbar, .contact-form div, textarea{box-shadow: inset 0 3px 2px;}
+
+
+
+
+
+
+
+
+
+body{margin: 0; padding: 0;  font-family: monospace; height: 100vh;}
+
+header{padding-top: 20px; padding-bottom: 20px;}
+
+header nav{gap: 100px; margin-left: 50px;}
+
+a{text-decoration: none; color: #000;}
+
+h1{font-size: 35px;}
+
+h3{font-size: 22px;}
+
+.searchbar{padding: 8px; width: 250px; right: 400px;}
+
+.searchbar input{margin-left: 20px;  background-color: transparent; width: 200px;}
+
+input{outline: none; border: none;}
+
+main{width: 1300px; flex: 1;}
+
+.main-logo{height: 175px; width: 175px;}
+
+.tcsm-logo-display{
+    height: 500px;
+    background-image: url("../images/used-images/mammoth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button{height: 50px; margin-top: 30px; box-shadow: 0 5px 4px #000; width: fit-content;}
+
+button:hover{background-color: #0fd377;}
+
+.news-display{flex-wrap: wrap;}
+
+.news{width: 600px;}
+
+footer{padding-bottom: 20px;}
+
+footer h3{margin-bottom: 0; }
+
+footer i{font-size: 30px;}
+
+.footer-logo{height: 150px;}
+
+header label{margin-left: 50px; font-size: 30px;}
+
+#burger:checked ~ nav{padding-left: 10px; top: 60px; left: 0; margin-left: 0; height: 100%;}
+
+.content{width: 1200px; align-items: start;}
+
+.active{border-bottom: 0.5px solid #009231;}
+
+form div, form textarea{width: 500px;}
+
+form{padding: 20px; width: 800px; border-radius: 30px; background-color: #59f1dd;}
+
+form div{justify-content: space-between;}
+
+form input{width: 450px;}
+
+form div, form textarea{padding: 10px;}
+
+form textarea{height: 200px;}
+
+.teacher-img{height: 300px; width: 400px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1750px){.searchbar{right: 200px;}}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1500px){
+    header nav{gap: 60px;}
+
+    header a{font-size: 20px;}
+
+    .searchbar{width: 200px; right: 100px;}
+
+    .searchbar input{width: 150px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1350px){
+    main{width: 800px;}
+
+    section{margin-top: 40px;}
+
+    .tcsm-logo-display{height: 400px;}
+
+    .main-logo{height: 150px; width: 150px;}
+
+    .footer-logo{height: 120px; width: 120px;}
+
+    .content{width: 700px;}
+}
+
+
+
+
+
+
+@media(max-width: 1100px){
+    header nav{gap: 35px;}
+    
+    h1{font-size: 30px;}
+
+    footer i{font-size: 25px;}
+
+    h2{font-size: 22px;}
+
+    h3{font-size: 20px;}
+
+    p, a, button, input, .searchbar i, li{font-size: 16px;}
+
+    .tcsm-logo-display{height: 300px;}
+
+    .main-logo{height: 120px; width: 120px;}
+
+    .searchbar{width: 150px;}
+
+    .searchbar input{width: 100px;}
+
+    button{height: 40px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 950px){
+    header nav{margin-left: 20px; gap: 30px;}
+
+    .searchbar{right: 50px; padding: 5px;}
+
+    main, form{width: 500px;}
+
+    main img, .tcsm-logo-display, .teacher-img{height: 200px;}
+
+    .main-logo{height: 90px; width: 90px;}
+
+    .news, .content, form div, form textarea{width: 400px;}
+
+    .footer-logo{height: 75px; width: 75px;}
+
+    .content h2{margin-top: 50px;}
+
+    form input{width: 350px;}
+
+    .teacher-img{width: 300px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+    h1{font-size: 25px;}
+
+    footer i{font-size: 22px;}
+
+    h2{font-size: 20px;}
+
+    header a, h3{font-size: 16px;}
+
+    p, a, label, input, button, textarea{font-size: 14px;}
+
+    header nav{gap: 20px;}
+
+    .searchbar{width: 120px;}
+
+    .searchbar input{width: 90px; margin-left: 5px;}
+
+    .searchbar i{font-size: 12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 650px){
+    header nav, footer section a{display: none;}
+
+    header a{font-size: 18px;}
+
+    header label, .phone-title{display: block;}
+
+    header h3{font-size: 20px;}
+
+    header{justify-content: space-between;}
+
+    .searchbar, form input, footer section{width: 200px;}
+
+    .searchbar{position: relative;}
+    
+    .searchbar input{width: 120px;}
+
+    .phone-footer{display: flex;}
+
+    footer{flex-direction: column; justify-content: center; width: 100%; align-items: center;}
+
+    footer a{width: fit-content;}
+
+    footer h3, footer a{text-align: center;}
+
+    .contact-form{margin-top: 50px;}
+
+    header{padding-top: 10px; padding-bottom: 10px;}
+
+    form{width: 300px;}
+
+    form div, form textarea{width: 250px;}
+
+    form textarea{height: 120px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 550px){
+    main{width: 350px;}
+
+    main img, .teacher-img{height: 150px;}
+
+    header label{margin-left: 20px;}
+
+    .news {width: 300px;}
+
+    .searchbar{width: 100px;}
+
+    .searchbar input{width: 75px;}
+
+    .content{width: 300px;}
+
+    .teacher-img{width: 250px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 400px){
+    main, main img{width: 100%;}
+
+    h1, h2, h3, main p, .news-display, .content{width: 90%;}
+    
+    section{margin-top: 0px;}
+
+    .news{width: fit-content}
+
+    .searchbar{display: none;}
+
+    .content h2{margin-top: 20px;}
+
+    form, form div, form textarea{width: 70%;}
+
+    form input{width: 80%;}
+}
