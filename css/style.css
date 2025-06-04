@@ -1,15 +1,15 @@
 body, header, header nav, main, footer, section, .searchbar, .tcsm-logo-display, .news, footer div, #burger:checked ~ nav, 
-.content{display: flex;}
+.content, form, form div{display: flex;}
 
-body, main, section, .news-display, .news, #burger:checked ~ nav, .content{flex-direction: column;}
+body, main, section, .news-display, .news, #burger:checked ~ nav, .content, form{flex-direction: column;}
 
-body, header, main, .searchbar, .tcsm-logo-display, section, .news-display, .news{align-items: center;}
+body, header, main, .searchbar, .tcsm-logo-display, section, .news-display, .news, form, form div{align-items: center;}
 
-header, header nav, footer, .searchbar, footer div{flex-direction: row;}
+header, header nav, footer, .searchbar, footer div, form div{flex-direction: row;}
 
 header, .tcsm-logo-display, main img, main p, h1, h2, h3, footer, p, footer a, footer div{width: 100%;}
 
-header, #burger:checked ~ nav{justify-content: start;}
+header nav, #burger:checked ~ nav{justify-content: start;}
 
 header, footer, #burger:checked ~ nav{background-color: #DFDFDF;}
 
@@ -17,15 +17,15 @@ header label, #burger, header h3, .phone-footer{display: none;}
 
 a:hover, i:hover, .active, .phone-title{color: #009231;}
 
-h2, header a{font-size: 25px;}
+h2, header a, form i{font-size: 25px;}
 
 p, a, label, button, input, .searchbar i, li, textarea{font-size: 20px;}
 
-.searchbar, .tcsm-logo-display, .news{justify-content: center;}
+.searchbar, .tcsm-logo-display, .news, .contact-form{justify-content: center;}
 
 .searchbar, #burger:checked ~ nav{position: absolute;}
 
-.main-logo, .tcsm-logo-display, .news, .news img, footer h3{margin-top: 0;}
+.main-logo, .tcsm-logo-display, .news, .news img, footer h3, .first-img{margin-top: 0;}
 
 main img, footer section, .footer-logo, .news, #top-logo{margin-top: 50px;}
 
@@ -43,15 +43,15 @@ h1, h2, h3{text-align: center;}
 
 footer h3, .content h2{text-align: left;}
 
+.searchbar, form, form div, form textarea{border: 0.5px solid #000;}
 
+.searchbar, form div{border-radius: 20px;}
 
+footer a, form div, form textarea{margin-top: 20px;}
 
+button, form div, form textarea, .searchbar{background-color: #fff;}
 
-
-
-
-
-
+.searchbar, .contact-form div, textarea{box-shadow: inset 0 3px 2px;}
 
 
 
@@ -63,9 +63,9 @@ footer h3, .content h2{text-align: left;}
 
 body{margin: 0; padding: 0;  font-family: monospace; height: 100vh;}
 
-header {height: 60px;}
+header{padding-top: 20px; padding-bottom: 20px;}
 
-header nav{justify-content: space-between; gap: 100px; margin-left: 50px;}
+header nav{gap: 100px; margin-left: 50px;}
 
 a{text-decoration: none; color: #000;}
 
@@ -73,16 +73,11 @@ h1{font-size: 35px;}
 
 h3{font-size: 22px;}
 
-.searchbar{
-    padding: 8px;
-    border: 0.5px solid #000;
-    border-radius: 20px;
-    width: 250px;
-    box-shadow: inset 0 3px 2px;
-    right: 400px;
-}
+.searchbar{padding: 8px; width: 250px; right: 400px;}
 
-.searchbar input{margin-left: 20px; outline: none; border: none; background-color: transparent; width: 200px;}
+.searchbar input{margin-left: 20px;  background-color: transparent; width: 200px;}
+
+input{outline: none; border: none;}
 
 main{width: 1300px; flex: 1;}
 
@@ -96,7 +91,7 @@ main{width: 1300px; flex: 1;}
     background-size: cover;
 }
 
-button{height: 50px; margin-top: 30px; background-color: #fff; box-shadow: 0 5px 4px #000; width: fit-content;}
+button{height: 50px; margin-top: 30px; box-shadow: 0 5px 4px #000; width: fit-content;}
 
 button:hover{background-color: #0fd377;}
 
@@ -105,8 +100,6 @@ button:hover{background-color: #0fd377;}
 .news{width: 600px;}
 
 footer{padding-bottom: 20px;}
-
-footer a{margin-top: 20px;}
 
 footer h3{margin-bottom: 0; }
 
@@ -122,60 +115,19 @@ header label{margin-left: 50px; font-size: 30px;}
 
 .active{border-bottom: 0.5px solid #009231;}
 
+form div, form textarea{width: 500px;}
 
+form{padding: 20px; width: 800px; border-radius: 30px; background-color: #59f1dd;}
 
+form div{justify-content: space-between;}
 
+form input{width: 450px;}
 
+form div, form textarea{padding: 10px;}
 
+form textarea{height: 200px;}
 
-
-
-
-
-
-.contact-form{justify-content: center;}
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    border: solid black;
-    align-items: center;
-    padding: 20px;
-    width: 800px;
-    border-radius: 30px;
-    background-color: #59f1dd;
-    
-}
-
-form div{
-    display: flex;
-    flex-direction: row;
-    width: 500px;
-    align-items: center;
-    justify-content: space-between;
-    border: solid yellow;
-    border-radius: 20px;
-}
-
-form i{font-size: 25px;}
-
-form input{outline-color: none; border: none; width: 450px;}
-
-form input:focus{outline: none; border: none;}
-
-form div, form textarea{margin-top: 20px; background-color: #fff; border: 0.5px solid #000; padding: 10px;}
-
-form textarea{width: 500px; height: 200px;}
-
-
-
-
-
-
-
-
-
+.teacher-img{height: 300px; width: 400px;}
 
 
 
@@ -309,19 +261,21 @@ form textarea{width: 500px; height: 200px;}
 
     .searchbar{right: 50px; padding: 5px;}
 
-    main{width: 500px;}
+    main, form{width: 500px;}
 
-    main img, .tcsm-logo-display{height: 200px;}
+    main img, .tcsm-logo-display, .teacher-img{height: 200px;}
 
     .main-logo{height: 90px; width: 90px;}
 
-    .news{width: 400px;}
+    .news, .content, form div, form textarea{width: 400px;}
 
     .footer-logo{height: 75px; width: 75px;}
 
-    .content{width: 400px;}
-
     .content h2{margin-top: 50px;}
+
+    form input{width: 350px;}
+
+    .teacher-img{width: 300px;}
 }
 
 
@@ -348,7 +302,7 @@ form textarea{width: 500px; height: 200px;}
 
     header a, h3{font-size: 16px;}
 
-    p, a, label, input, button{font-size: 14px;}
+    p, a, label, input, button, textarea{font-size: 14px;}
 
     header nav{gap: 20px;}
 
@@ -381,7 +335,9 @@ form textarea{width: 500px; height: 200px;}
 
     header{justify-content: space-between;}
 
-    .searchbar{position: relative; width: 200px;}
+    .searchbar, form input, footer section{width: 200px;}
+
+    .searchbar{position: relative;}
     
     .searchbar input{width: 120px;}
 
@@ -389,9 +345,19 @@ form textarea{width: 500px; height: 200px;}
 
     footer{flex-direction: column; justify-content: center; width: 100%; align-items: center;}
 
-    footer section, footer a{width: fit-content;}
+    footer a{width: fit-content;}
 
     footer h3, footer a{text-align: center;}
+
+    .contact-form{margin-top: 50px;}
+
+    header{padding-top: 10px; padding-bottom: 10px;}
+
+    form{width: 300px;}
+
+    form div, form textarea{width: 250px;}
+
+    form textarea{height: 120px;}
 }
 
 
@@ -411,7 +377,7 @@ form textarea{width: 500px; height: 200px;}
 @media(max-width: 550px){
     main{width: 350px;}
 
-    main img{height: 150px;}
+    main img, .teacher-img{height: 150px;}
 
     header label{margin-left: 20px;}
 
@@ -422,6 +388,8 @@ form textarea{width: 500px; height: 200px;}
     .searchbar input{width: 75px;}
 
     .content{width: 300px;}
+
+    .teacher-img{width: 250px;}
 }
 
 
@@ -451,4 +419,8 @@ form textarea{width: 500px; height: 200px;}
     .searchbar{display: none;}
 
     .content h2{margin-top: 20px;}
+
+    form, form div, form textarea{width: 70%;}
+
+    form input{width: 80%;}
 }
